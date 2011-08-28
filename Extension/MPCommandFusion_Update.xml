@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Items>
+    <PackageClass>
+      <Version>2.0</Version>
+      <Groups>
+        <Items>
+          <GroupItem Name="Default">
+            <DisplayName>Default</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Default</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+        </Items>
+      </Groups>
+      <Sections>
+        <Items />
+      </Sections>
+      <Dependencies>
+        <Items />
+      </Dependencies>
+      <GeneralInfo>
+        <Name>MPCommandFusion</Name>
+        <Id>8dfb774b-aa65-4273-8680-26ef21bd8770</Id>
+        <Author>CommandFusion</Author>
+        <HomePage>http://www.commandfusion.com</HomePage>
+        <ForumPage>http://www.commandfusion.com</ForumPage>
+        <UpdateUrl>http://www.commandfusion.com</UpdateUrl>
+        <Version>
+          <Major>1</Major>
+          <Minor>0</Minor>
+          <Build>0</Build>
+          <Revision>0</Revision>
+        </Version>
+        <ExtensionDescription>Control MediaPortal with CommandFusion iViewer app for iPhone/iPad/iPod touch.</ExtensionDescription>
+        <VersionDescription />
+        <DevelopmentStatus>Alpha</DevelopmentStatus>
+        <OnlineLocation>http://www.commandfusion.com</OnlineLocation>
+        <ReleaseDate>2010-12-18T11:52:47.9818158+11:00</ReleaseDate>
+        <Tags>commandfusion tcp socket iviewer iphone ipad ipod touch client controller automation home</Tags>
+        <Location />
+        <Params>
+          <Items>
+            <SectionParam Name="Icon">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>The icon file of the package (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Online Icon">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+            </SectionParam>
+            <SectionParam Name="Configuration file">
+              <Value />
+              <ValueType>Template</ValueType>
+              <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+            </SectionParam>
+            <SectionParam Name="Online Screenshots">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Online stored screenshot urls separated by ; </Description>
+            </SectionParam>
+            <SectionParam Name="Force to uninstall on update">
+              <Value>yes</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+      </GeneralInfo>
+      <UniqueFileList>
+        <Items />
+      </UniqueFileList>
+      <ProjectSettings>
+        <FolderGroups />
+      </ProjectSettings>
+    </PackageClass>
+  </Items>
+</ExtensionCollection>
